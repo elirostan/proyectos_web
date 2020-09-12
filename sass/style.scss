@@ -1,0 +1,529 @@
+
+/*VARIABLES*/
+$color-principal:#0A9999;
+$color-secundario:#BA9BB9;
+$columnas:6;
+
+/*IMPORTACIONES*/
+
+@import 'estructura';
+@import 'base';
+
+
+/*BUCLES*/
+
+@for $contador from 1 through $columnas {
+    .columnas-#{$contador} div {
+        width: (100% / $contador);
+        float: left;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+
+/*EACH*/
+
+@each $contactos in mail, whatsapp, ubicacion {
+    span.contacto.icono-#{$contactos} { 
+        background-image: url('../img/#{$contactos}.png');
+       
+    }
+
+}
+
+span.contacto {
+    width: 50px;
+    height: 60px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+  
+}
+
+
+/*MIXIN*/
+
+    @mixin estiloGrilla($fondo) {
+       background-color: $fondo;   
+    }
+    
+    .fondo {
+        @include estiloGrilla(rgb(235, 236, 236) );
+        
+    }
+    
+    
+    
+/*EXTEND*/
+
+.marcas {
+    text-align: center;
+    color:$color-principal;
+    margin-bottom: 5px;
+    font-size: 2rem; 
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+    .mayorPadding {
+        @extend .marcas;
+        padding-bottom: 20px;
+    }
+    
+
+
+/**************************************************INDEX*******************************/
+
+.slideCarousel {
+    margin-top: 60px;
+}
+
+.tituloIndex {
+    margin-bottom: 40px;
+    color: $color-principal;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center; 
+    transition: transform 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+
+}
+
+
+.parrafoIndex {  
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 2px;
+} 
+
+.containerParrafoindex {
+    max-width: 100%;
+    background-color: $color-secundario!important;
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
+
+}
+
+.buttonIndex {
+   margin-top:10px;
+    font-size: 1.5rem;
+    color: white!important;
+    border-color: white!important;
+
+    &:hover{
+        background-color: #6CDADD
+      }
+        
+}
+
+
+.serviciosIndex {
+    text-align: center;
+    color: $color-secundario;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem; 
+        
+}
+
+.marginIconos {
+    margin-top:50px
+}
+
+.subtituloIndex{
+    text-align: center;
+    color:lightslategray;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  
+}
+
+
+
+
+
+/***********************************SECCIONES*********************************************/
+#secciones {
+    color: $color-principal;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;}
+
+    
+.fondoPortada {
+    position: relative;
+    width: 100%;
+    background-image:url("../img/dg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    overflow: hidden;
+
+}
+
+.portadaSecciones {
+    margin-top: 250px;
+ 
+}
+    
+/**************************************NOSOTROS*****************************************/
+
+.parrafoNosotros {
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600; 
+    padding-top: 20px;
+}
+
+
+.tituloMetodos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: $color-secundario; 
+}
+
+.subtituloMetodos {
+    color: $color-secundario;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom:10px;
+
+     p {
+        font-size: 1.5rem; 
+    }
+    
+}
+
+.slogan {
+    text-align:center ;
+    color: #6CDADD;
+    font-weight: 700;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    word-spacing: 20px;      
+}
+
+/*******************************************SERVICIOS***********************************/
+
+
+.tituloServicios {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30PX;
+    padding: 20px;
+        
+}
+
+.subtituloServicios {
+    color:$color-principal; 
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+
+     div {
+    color:$color-secundario;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    text-align:center;
+    
+}
+    P {
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    color:#60606e;
+    padding-top: 20px;
+}
+
+}
+
+.buttonServicios {
+     font-size: 1.5rem;
+     color:$color-principal!important;
+     border-color: $color-principal!important;
+     margin-top:50px;
+     margin-bottom: 30px;
+   
+     &:hover{
+         background-color: #6CDADD!important;
+         color:white!important;  
+       }
+         
+ }
+
+.styleServicios {
+  margin-top: 30px;
+    border:none
+} 
+
+/*****************************************PORTFOLIO***************************************/
+
+
+
+.buttonPortfolio {
+    font-size:500;
+    margin-top: 30px;
+    margin-left:30px;
+    background-color: $color-principal!important;
+    border-color: $color-principal!important;
+    
+}
+
+.styledropdown {
+    background-color: $color-principal!important;
+}
+
+
+
+/**************************************CONTACTO*******************************************/
+
+ .datos {
+    text-align: center;
+    font-weight: 600;
+    color: $color-principal;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+
+.buttonContacto {
+    font-size:500;
+    margin-top: 10px;
+    background-color: $color-principal!important;
+    border-color: $color-principal!important;
+    
+}
+/*ID*/
+
+/***********************************NAVBAR*********************************************/
+.nav {
+    width: 50%;
+    padding-top:10px;
+   
+    ul{
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        }
+
+    li{
+        flex-grow:1;
+        flex-shrink: 1;
+        }
+
+    a {
+        letter-spacing: .1rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color:white!important;
+        transition: transform 0.5s;
+        cursor: pointer;
+        }
+
+    a:hover { 
+        color:$color-principal!important;    
+        }
+
+    }
+
+    .imgLogo {
+        padding:5px 0px 5px 5px;
+        width: 70px;
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+    
+        &:hover{
+            transform: scale(1.2);
+        }
+    
+    }
+
+
+   
+/***********************************FOOTER*********************************************/
+#pie {
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    margin: bottom 0;
+    width: 100%;
+    background-color: rgb(238, 231, 231);
+    text-align: center;
+    padding-top: 10px;
+    
+
+    p {
+        font-size: 1.2rem;
+        color: lightslategray;
+        text-align: center;   
+    }
+}
+
+
+/***********************************MEDIA-QUERIS*********************************************/
+@media only screen and (max-width: 480px) {
+
+    .iconosNosotros {
+        padding-bottom:5px;
+        width:50px;
+    }
+
+    .parrafoMovil {
+        font-size: 1.2rem;
+    }
+
+    .contactoIcono {
+        font-size: 1rem;
+
+        img {
+
+            padding:2px;
+            width: 20px;
+        }
+   
+    }
+
+    .icono {
+        padding:10px;
+        width: 70px;
+    }
+
+    .marginIcono {
+        padding-top: 100px;
+    }
+    
+    .redes {
+        padding:5px;
+        width: 40px;
+       
+    }
+    
+    .imgPortfolio {
+        padding:10px;
+        width: 100%;              
+    }
+
+    .styleForm {
+        padding-top:40px;
+        padding-bottom: 40px;
+        width:100%
+    }
+
+
+  } /* fin de MQ */
+
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    .iconosNosotros {
+        padding-bottom: 5px;
+        width:50px;
+    }
+
+    .icono {
+        padding:30px;
+        width: 220px;
+    }
+
+    .contactoIcono {
+        padding:10px;
+        width: 60px;
+
+    }
+
+
+    .marginIcono {
+        padding-top: 100px;
+    }
+    
+
+    .redes {
+        padding:10px;
+        width: 50px;
+       
+    }
+
+    
+
+    .imgPortfolio {
+        padding:10px;
+        width: 200px;              
+    }
+    
+  } 
+  
+  
+  /* fin de MQ */
+
+  @media only screen and (min-width: 768px) {
+    
+    .icono {
+        padding: 30px; 
+        width: 150px;
+    }
+
+    .contactoIcono {
+        padding:10px;
+        width: 60px;
+
+    }
+
+    .marginIcono {
+        padding-top: 100px;
+    }
+    
+    .redes {
+        padding:15px;
+        width: 60px;
+        justify-content: center;
+    }
+    
+    .imgPortfolio {
+        padding:10px;
+        width: 300px;              
+    }
+
+    .styleForm {
+        padding-top:40px;
+        padding-bottom: 40px;
+        width:40%;
+        color: dimgrey;
+        font-weight: 400!important;
+        font-size: 1.5rem;    
+    }
+        
+    .iconosNosotros {
+        padding-bottom: 15px;
+        width:80px;
+    }
+
+    }
+    
+@media (min-width: 992px) { 
+    .marginIcono {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+     }

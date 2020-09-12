@@ -1,0 +1,590 @@
+/*VARIABLES*/
+/*IMPORTACIONES*/
+/* line 1, ../../../Desktop/proyectos_web/sass/_estructura.scss */
+#contenedor {
+  display: grid;
+}
+
+/* line 3, ../../../Desktop/proyectos_web/sass/_estructura.scss */
+#contenedor section {
+  width: 100%;
+}
+
+/* line 2, ../../../Desktop/proyectos_web/sass/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../../../Desktop/proyectos_web/sass/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 11, ../../../Desktop/proyectos_web/sass/_base.scss */
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 16, ../../../Desktop/proyectos_web/sass/_base.scss */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* line 22, ../../../Desktop/proyectos_web/sass/_base.scss */
+h1 {
+  margin-top: 10px;
+}
+
+/* line 27, ../../../Desktop/proyectos_web/sass/_base.scss */
+h2 {
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+}
+
+/* line 32, ../../../Desktop/proyectos_web/sass/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*BUCLES*/
+/* line 16, ../../../Desktop/proyectos_web/sass/style.scss */
+.columnas-1 div {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 16, ../../../Desktop/proyectos_web/sass/style.scss */
+.columnas-2 div {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 16, ../../../Desktop/proyectos_web/sass/style.scss */
+.columnas-3 div {
+  width: 33.33333%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 16, ../../../Desktop/proyectos_web/sass/style.scss */
+.columnas-4 div {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 16, ../../../Desktop/proyectos_web/sass/style.scss */
+.columnas-5 div {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 16, ../../../Desktop/proyectos_web/sass/style.scss */
+.columnas-6 div {
+  width: 16.66667%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*EACH*/
+/* line 28, ../../../Desktop/proyectos_web/sass/style.scss */
+span.contacto.icono-mail {
+  background-image: url("../img/mail.png");
+}
+
+/* line 28, ../../../Desktop/proyectos_web/sass/style.scss */
+span.contacto.icono-whatsapp {
+  background-image: url("../img/whatsapp.png");
+}
+
+/* line 28, ../../../Desktop/proyectos_web/sass/style.scss */
+span.contacto.icono-ubicacion {
+  background-image: url("../img/ubicacion.png");
+}
+
+/* line 35, ../../../Desktop/proyectos_web/sass/style.scss */
+span.contacto {
+  width: 50px;
+  height: 60px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+/*MIXIN*/
+/* line 53, ../../../Desktop/proyectos_web/sass/style.scss */
+.fondo {
+  background-color: #ebecec;
+}
+
+/*EXTEND*/
+/* line 62, ../../../Desktop/proyectos_web/sass/style.scss */
+.marcas, .mayorPadding {
+  text-align: center;
+  color: #0A9999;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* line 72, ../../../Desktop/proyectos_web/sass/style.scss */
+.mayorPadding {
+  padding-bottom: 20px;
+}
+
+/**************************************************INDEX*******************************/
+/* line 81, ../../../Desktop/proyectos_web/sass/style.scss */
+.slideCarousel {
+  margin-top: 60px;
+}
+
+/* line 85, ../../../Desktop/proyectos_web/sass/style.scss */
+.tituloIndex {
+  margin-bottom: 40px;
+  color: #0A9999;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+/* line 95, ../../../Desktop/proyectos_web/sass/style.scss */
+.tituloIndex:hover {
+  transform: scale(1.2);
+}
+
+/* line 102, ../../../Desktop/proyectos_web/sass/style.scss */
+.parrafoIndex {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 2px;
+}
+
+/* line 112, ../../../Desktop/proyectos_web/sass/style.scss */
+.containerParrafoindex {
+  max-width: 100%;
+  background-color: #BA9BB9 !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+/* line 120, ../../../Desktop/proyectos_web/sass/style.scss */
+.buttonIndex {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: white !important;
+  border-color: white !important;
+}
+
+/* line 126, ../../../Desktop/proyectos_web/sass/style.scss */
+.buttonIndex:hover {
+  background-color: #6CDADD;
+}
+
+/* line 133, ../../../Desktop/proyectos_web/sass/style.scss */
+.serviciosIndex {
+  text-align: center;
+  color: #BA9BB9;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+/* line 142, ../../../Desktop/proyectos_web/sass/style.scss */
+.marginIconos {
+  margin-top: 50px;
+}
+
+/* line 146, ../../../Desktop/proyectos_web/sass/style.scss */
+.subtituloIndex {
+  text-align: center;
+  color: lightslategray;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/***********************************SECCIONES*********************************************/
+/* line 159, ../../../Desktop/proyectos_web/sass/style.scss */
+#secciones {
+  color: #0A9999;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* line 167, ../../../Desktop/proyectos_web/sass/style.scss */
+.fondoPortada {
+  position: relative;
+  width: 100%;
+  background-image: url("../img/dg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+/* line 178, ../../../Desktop/proyectos_web/sass/style.scss */
+.portadaSecciones {
+  margin-top: 250px;
+}
+
+/**************************************NOSOTROS*****************************************/
+/* line 185, ../../../Desktop/proyectos_web/sass/style.scss */
+.parrafoNosotros {
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+/* line 194, ../../../Desktop/proyectos_web/sass/style.scss */
+.tituloMetodos {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #BA9BB9;
+}
+
+/* line 201, ../../../Desktop/proyectos_web/sass/style.scss */
+.subtituloMetodos {
+  color: #BA9BB9;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* line 207, ../../../Desktop/proyectos_web/sass/style.scss */
+.subtituloMetodos p {
+  font-size: 1.5rem;
+}
+
+/* line 213, ../../../Desktop/proyectos_web/sass/style.scss */
+.slogan {
+  text-align: center;
+  color: #6CDADD;
+  font-weight: 700;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  word-spacing: 20px;
+}
+
+/*******************************************SERVICIOS***********************************/
+/* line 228, ../../../Desktop/proyectos_web/sass/style.scss */
+.tituloServicios {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30PX;
+  padding: 20px;
+}
+
+/* line 236, ../../../Desktop/proyectos_web/sass/style.scss */
+.subtituloServicios {
+  color: #0A9999;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 243, ../../../Desktop/proyectos_web/sass/style.scss */
+.subtituloServicios div {
+  color: #BA9BB9;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* line 251, ../../../Desktop/proyectos_web/sass/style.scss */
+.subtituloServicios P {
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: #60606e;
+  padding-top: 20px;
+}
+
+/* line 262, ../../../Desktop/proyectos_web/sass/style.scss */
+.buttonServicios {
+  font-size: 1.5rem;
+  color: #0A9999 !important;
+  border-color: #0A9999 !important;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* line 269, ../../../Desktop/proyectos_web/sass/style.scss */
+.buttonServicios:hover {
+  background-color: #6CDADD !important;
+  color: white !important;
+}
+
+/* line 276, ../../../Desktop/proyectos_web/sass/style.scss */
+.styleServicios {
+  margin-top: 30px;
+  border: none;
+}
+
+/*****************************************PORTFOLIO***************************************/
+/* line 285, ../../../Desktop/proyectos_web/sass/style.scss */
+.buttonPortfolio {
+  font-size: 500;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #0A9999 !important;
+  border-color: #0A9999 !important;
+}
+
+/* line 294, ../../../Desktop/proyectos_web/sass/style.scss */
+.styledropdown {
+  background-color: #0A9999 !important;
+}
+
+/**************************************CONTACTO*******************************************/
+/* line 302, ../../../Desktop/proyectos_web/sass/style.scss */
+.datos {
+  text-align: center;
+  font-weight: 600;
+  color: #0A9999;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* line 310, ../../../Desktop/proyectos_web/sass/style.scss */
+.buttonContacto {
+  font-size: 500;
+  margin-top: 10px;
+  background-color: #0A9999 !important;
+  border-color: #0A9999 !important;
+}
+
+/*ID*/
+/***********************************NAVBAR*********************************************/
+/* line 320, ../../../Desktop/proyectos_web/sass/style.scss */
+.nav {
+  width: 50%;
+  padding-top: 10px;
+}
+
+/* line 324, ../../../Desktop/proyectos_web/sass/style.scss */
+.nav ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+/* line 331, ../../../Desktop/proyectos_web/sass/style.scss */
+.nav li {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/* line 336, ../../../Desktop/proyectos_web/sass/style.scss */
+.nav a {
+  letter-spacing: .1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white !important;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+/* line 345, ../../../Desktop/proyectos_web/sass/style.scss */
+.nav a:hover {
+  color: #0A9999 !important;
+}
+
+/* line 351, ../../../Desktop/proyectos_web/sass/style.scss */
+.imgLogo {
+  padding: 5px 0px 5px 5px;
+  width: 70px;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* line 358, ../../../Desktop/proyectos_web/sass/style.scss */
+.imgLogo:hover {
+  transform: scale(1.2);
+}
+
+/***********************************FOOTER*********************************************/
+/* line 367, ../../../Desktop/proyectos_web/sass/style.scss */
+#pie {
+  position: absolute;
+  background-size: cover;
+  left: 0;
+  margin: bottom 0;
+  width: 100%;
+  background-color: #eee7e7;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* line 378, ../../../Desktop/proyectos_web/sass/style.scss */
+#pie p {
+  font-size: 1.2rem;
+  color: lightslategray;
+  text-align: center;
+}
+
+/***********************************MEDIA-QUERIS*********************************************/
+@media only screen and (max-width: 480px) {
+  /* line 389, ../../../Desktop/proyectos_web/sass/style.scss */
+  .iconosNosotros {
+    padding-bottom: 5px;
+    width: 50px;
+  }
+  /* line 394, ../../../Desktop/proyectos_web/sass/style.scss */
+  .parrafoMovil {
+    font-size: 1.2rem;
+  }
+  /* line 398, ../../../Desktop/proyectos_web/sass/style.scss */
+  .contactoIcono {
+    font-size: 1rem;
+  }
+  /* line 401, ../../../Desktop/proyectos_web/sass/style.scss */
+  .contactoIcono img {
+    padding: 2px;
+    width: 20px;
+  }
+  /* line 409, ../../../Desktop/proyectos_web/sass/style.scss */
+  .icono {
+    padding: 10px;
+    width: 70px;
+  }
+  /* line 414, ../../../Desktop/proyectos_web/sass/style.scss */
+  .marginIcono {
+    padding-top: 100px;
+  }
+  /* line 418, ../../../Desktop/proyectos_web/sass/style.scss */
+  .redes {
+    padding: 5px;
+    width: 40px;
+  }
+  /* line 424, ../../../Desktop/proyectos_web/sass/style.scss */
+  .imgPortfolio {
+    padding: 10px;
+    width: 100%;
+  }
+  /* line 429, ../../../Desktop/proyectos_web/sass/style.scss */
+  .styleForm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+}
+
+/* fin de MQ */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* line 440, ../../../Desktop/proyectos_web/sass/style.scss */
+  .iconosNosotros {
+    padding-bottom: 5px;
+    width: 50px;
+  }
+  /* line 445, ../../../Desktop/proyectos_web/sass/style.scss */
+  .icono {
+    padding: 30px;
+    width: 220px;
+  }
+  /* line 450, ../../../Desktop/proyectos_web/sass/style.scss */
+  .contactoIcono {
+    padding: 10px;
+    width: 60px;
+  }
+  /* line 457, ../../../Desktop/proyectos_web/sass/style.scss */
+  .marginIcono {
+    padding-top: 100px;
+  }
+  /* line 462, ../../../Desktop/proyectos_web/sass/style.scss */
+  .redes {
+    padding: 10px;
+    width: 50px;
+  }
+  /* line 470, ../../../Desktop/proyectos_web/sass/style.scss */
+  .imgPortfolio {
+    padding: 10px;
+    width: 200px;
+  }
+}
+
+/* fin de MQ */
+@media only screen and (min-width: 768px) {
+  /* line 482, ../../../Desktop/proyectos_web/sass/style.scss */
+  .icono {
+    padding: 30px;
+    width: 150px;
+  }
+  /* line 487, ../../../Desktop/proyectos_web/sass/style.scss */
+  .contactoIcono {
+    padding: 10px;
+    width: 60px;
+  }
+  /* line 493, ../../../Desktop/proyectos_web/sass/style.scss */
+  .marginIcono {
+    padding-top: 100px;
+  }
+  /* line 497, ../../../Desktop/proyectos_web/sass/style.scss */
+  .redes {
+    padding: 15px;
+    width: 60px;
+    justify-content: center;
+  }
+  /* line 503, ../../../Desktop/proyectos_web/sass/style.scss */
+  .imgPortfolio {
+    padding: 10px;
+    width: 300px;
+  }
+  /* line 508, ../../../Desktop/proyectos_web/sass/style.scss */
+  .styleForm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 40%;
+    color: dimgrey;
+    font-weight: 400 !important;
+    font-size: 1.5rem;
+  }
+  /* line 517, ../../../Desktop/proyectos_web/sass/style.scss */
+  .iconosNosotros {
+    padding-bottom: 15px;
+    width: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 525, ../../../Desktop/proyectos_web/sass/style.scss */
+  .marginIcono {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
