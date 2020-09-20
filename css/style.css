@@ -103,17 +103,17 @@ img {
 /*EACH*/
 /* line 28, ../../../Desktop/proyectos_web/sass/style.scss */
 span.contacto.icono-mail {
-  background-image: url("../img/mail.png");
+  background-image: url("img/mail.png");
 }
 
 /* line 28, ../../../Desktop/proyectos_web/sass/style.scss */
 span.contacto.icono-whatsapp {
-  background-image: url("../img/whatsapp.png");
+  background-image: url("img/whatsapp.png");
 }
 
 /* line 28, ../../../Desktop/proyectos_web/sass/style.scss */
 span.contacto.icono-ubicacion {
-  background-image: url("../img/ubicacion.png");
+  background-image: url("img/ubicacion.png");
 }
 
 /* line 35, ../../../Desktop/proyectos_web/sass/style.scss */
