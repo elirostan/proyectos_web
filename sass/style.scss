@@ -147,12 +147,14 @@ span.contacto {
     text-align: center;
     color:lightslategray;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   
 }
 
 
-
+.clientesIndex{
+    width: 100px;
+}
 
 
 /***********************************SECCIONES*********************************************/
@@ -161,7 +163,8 @@ span.contacto {
     font-weight:bold;
     font-style: normal;
     font-size: 4rem;
-    text-align: center;}
+    text-align: center;
+}
 
     
 .fondoPortada {
@@ -170,16 +173,12 @@ span.contacto {
     background-image:url("../img/dg.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    padding-top: 90px;
+    padding-top: 100px;
+    padding-bottom: 10px;
     overflow: hidden;
 
 }
 
-.portadaSecciones {
-    margin-top: 250px;
- 
-}
-    
 /**************************************NOSOTROS*****************************************/
 
 .parrafoNosotros {
@@ -252,7 +251,7 @@ span.contacto {
     font-style: normal;
     font-size: 1.5rem;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     color:#60606e;
     padding-top: 20px;
 }
