@@ -278,7 +278,15 @@ span.contacto {
 } 
 
 /*****************************************PORTFOLIO***************************************/
+.zoom {
+    transition: transform 0.5s;
+        cursor: pointer;
 
+        &:hover {
+            transform: scale(1.2);
+          }
+      }
+        
 
 
 .buttonPortfolio {
@@ -293,7 +301,6 @@ span.contacto {
 .styledropdown {
     background-color: $color-principal!important;
 }
-
 
 
 /**************************************CONTACTO*******************************************/
@@ -503,6 +510,7 @@ span.contacto {
         padding:10px;
         width: 300px;              
     }
+    
 
     .styleForm {
         padding-top:40px;
