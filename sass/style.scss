@@ -107,6 +107,7 @@ span.contacto {
     text-align: center;
     line-height: 1.6;
     letter-spacing: 2px;
+   
 } 
 
 .containerParrafoindex {
@@ -114,8 +115,11 @@ span.contacto {
     background-color: $color-secundario!important;
     padding-top: 30px!important;
     padding-bottom: 30px!important;
+    
 
 }
+
+
 
 .buttonIndex {
    margin-top:10px;
@@ -392,13 +396,18 @@ span.contacto {
 /***********************************MEDIA-QUERIS*********************************************/
 @media only screen and (max-width: 480px) {
 
+
     .iconosNosotros {
         padding-bottom:5px;
         width:50px;
     }
 
+    
     .parrafoMovil {
+        width: 360px;
         font-size: 1.2rem;
+        padding: 0;
+        
     }
 
     .contactoIcono {
