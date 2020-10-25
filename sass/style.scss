@@ -283,11 +283,11 @@ $columnas:6;
 
 .buttonPortfolio {
     font-size:500;
-    margin-top: -60px;
-    margin-left:30px;
+    margin-top: 30px;
+    margin-left: 30px;
     background-color: $color-principal!important;
     border-color: $color-principal!important;
-    margin-bottom: 135px
+    margin-bottom: 30px
     
 }
 
@@ -302,7 +302,7 @@ $columnas:6;
 
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
-    max-width: 1920px;
+    max-width: 75%;
   }
   #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box {
     position: relative;
@@ -340,6 +340,8 @@ $columnas:6;
   .text-white-75 {
     color: rgba(255, 255, 255, 0.75);
   }
+
+
 /**************************************CONTACTO*******************************************/
 
  .datos {
