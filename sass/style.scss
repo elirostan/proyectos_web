@@ -193,11 +193,12 @@ $columnas:6;
 .subtituloMetodos {
     font-weight: 100;
     text-align: center;
-    padding-bottom:10px;
     color: #60606e;
 
      p {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+     
     }
     
 }
@@ -265,7 +266,7 @@ $columnas:6;
      color:$color-principal!important;
      border-color: $color-principal!important;
      margin-top:50px;
-     margin-bottom: 30px;
+    
    
      &:hover{
          background-color: #6CDADD!important;
@@ -349,7 +350,6 @@ $columnas:6;
     font-weight: 600;
     color: $color-principal;
     padding-top:20px;
-    padding-bottom: 50px;
 }
 
 .buttonContacto {
@@ -422,6 +422,7 @@ $columnas:6;
     position: absolute;
     background-size: cover;
     left: 0;
+    margin-top:70px;;
     margin: bottom 0;
     width: 100%;
     background-color: rgb(238, 231, 231);
