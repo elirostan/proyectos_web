@@ -269,7 +269,7 @@ span.contacto.icono-ubicacion {
 
 /* line 193, ../../../Desktop/proyectos_web/sass/style.scss */
 .subtituloMetodos {
-  font-weight: 100;
+  font-weight: 100%;
   text-align: center;
   color: #60606e;
 }
@@ -277,7 +277,7 @@ span.contacto.icono-ubicacion {
 /* line 198, ../../../Desktop/proyectos_web/sass/style.scss */
 .subtituloMetodos p {
   font-size: 1.5rem;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 /* line 206, ../../../Desktop/proyectos_web/sass/style.scss */
@@ -528,46 +528,46 @@ span.contacto.icono-ubicacion {
 
 /***********************************MEDIA-QUERIS*********************************************/
 @media only screen and (max-width: 480px) {
-  /* line 445, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 444, ../../../Desktop/proyectos_web/sass/style.scss */
   .iconosNosotros {
     padding-bottom: 5px;
     width: 50px;
   }
-  /* line 450, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 449, ../../../Desktop/proyectos_web/sass/style.scss */
   .contactoIcono {
     padding: 10px;
     width: 50px;
   }
-  /* line 456, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 455, ../../../Desktop/proyectos_web/sass/style.scss */
   .stylecontacto {
     font-size: 0.7rem;
   }
-  /* line 461, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 460, ../../../Desktop/proyectos_web/sass/style.scss */
   .parrafoMovil {
     width: 100%;
     font-size: 1.2rem;
     padding: 0;
   }
-  /* line 469, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 468, ../../../Desktop/proyectos_web/sass/style.scss */
   .icono {
     padding: 10px;
     width: 70px;
   }
-  /* line 474, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 473, ../../../Desktop/proyectos_web/sass/style.scss */
   .marginIcono {
     padding-top: 100px;
   }
-  /* line 478, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 477, ../../../Desktop/proyectos_web/sass/style.scss */
   .redes {
     padding: 5px;
     width: 40px;
   }
-  /* line 484, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 483, ../../../Desktop/proyectos_web/sass/style.scss */
   .imgPortfolio {
     padding: 10px;
     width: 100%;
   }
-  /* line 489, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 488, ../../../Desktop/proyectos_web/sass/style.scss */
   .styleForm {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -577,26 +577,26 @@ span.contacto.icono-ubicacion {
 
 /* fin de MQ */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-  /* line 500, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 499, ../../../Desktop/proyectos_web/sass/style.scss */
   .iconosNosotros {
     padding-bottom: 5px;
     width: 50px;
   }
-  /* line 505, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 504, ../../../Desktop/proyectos_web/sass/style.scss */
   .icono {
     padding: 30px;
     width: 120px;
   }
-  /* line 512, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 511, ../../../Desktop/proyectos_web/sass/style.scss */
   .marginIcono {
     padding-top: 100px;
   }
-  /* line 517, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 516, ../../../Desktop/proyectos_web/sass/style.scss */
   .redes {
     padding: 10px;
     width: 50px;
   }
-  /* line 525, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 524, ../../../Desktop/proyectos_web/sass/style.scss */
   .imgPortfolio {
     padding: 10px;
     width: 200px;
@@ -605,27 +605,27 @@ span.contacto.icono-ubicacion {
 
 /* fin de MQ */
 @media only screen and (min-width: 768px) {
-  /* line 537, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 536, ../../../Desktop/proyectos_web/sass/style.scss */
   .icono {
     padding: 30px;
     width: 130px;
   }
-  /* line 544, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 543, ../../../Desktop/proyectos_web/sass/style.scss */
   .marginIcono {
     padding-top: 100px;
   }
-  /* line 548, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 547, ../../../Desktop/proyectos_web/sass/style.scss */
   .redes {
     padding: 15px;
     width: 60px;
     justify-content: center;
   }
-  /* line 554, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 553, ../../../Desktop/proyectos_web/sass/style.scss */
   .imgPortfolio {
     padding: 10px;
     width: 300px;
   }
-  /* line 560, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 559, ../../../Desktop/proyectos_web/sass/style.scss */
   .styleForm {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -634,7 +634,7 @@ span.contacto.icono-ubicacion {
     font-weight: 400 !important;
     font-size: 1.5rem;
   }
-  /* line 569, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 568, ../../../Desktop/proyectos_web/sass/style.scss */
   .iconosNosotros {
     padding-bottom: 15px;
     width: 80px;
@@ -642,7 +642,7 @@ span.contacto.icono-ubicacion {
 }
 
 @media (min-width: 992px) {
-  /* line 577, ../../../Desktop/proyectos_web/sass/style.scss */
+  /* line 576, ../../../Desktop/proyectos_web/sass/style.scss */
   .marginIcono {
     padding-top: 10px;
     padding-bottom: 20px;
